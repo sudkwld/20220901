@@ -1,0 +1,594 @@
+@media screen and (max-width:600px) {
+
+  /*Header*/
+  #top-nav .container {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+  }
+
+  .header-middle {
+    display: none;
+  }
+
+  .header-bottom {
+    display: none;
+  }
+
+  .header-min {
+    width: 100%;
+    height: auto;
+  }
+
+  .header-min-logo {
+    float: left;
+    margin-left: 25px;
+    display: flex;
+    align-items: center;
+  }
+
+  .hamburger-icon {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+
+  .header-icons {
+    float: right;
+    display: flex;
+  }
+
+  .header-icon-box {
+    margin-right: 25px;
+  }
+
+  #icon-detail {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+  }
+
+  .header-icon-img {
+    width: 20px;
+    height: 20px;
+  }
+
+  #icon-detail a {
+    font-size: 11px;
+  }
+
+  .logo-title img {
+    width: 100%;
+  }
+  
+  .clear {
+    clear: both;
+  }
+
+  .naviation {
+    position: relative;
+  }
+
+  .navigation-content {
+    width: 180px;
+  }
+  
+  .navigation-content a {
+    width: 90%;
+    padding: 10px 0;
+    margin-left: 20px;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+    background-color: #fff;
+  }
+
+  .navigation-content a:first-of-type, .navigation-content a:nth-of-type(2) {
+    font-weight: 600;
+    color: #333;
+  }
+
+  .navigation-content a:hover {
+    color: #a6c76c;
+  }
+  
+  /*Slider*/
+
+  #carousel-control img {
+    height: 350px;
+  }
+
+  #carousel-control .carousel-control-prev {
+    display: none;
+  }
+
+  #carousel-control .carousel-control-next {
+    display: none;
+  }
+
+  #carousel-control .carousel-caption {
+    text-align: left;
+    top: 20%;
+    left: 5%;
+    padding: 0;
+  }
+
+  #carousel-control .carousel-caption p {
+    margin: 0;
+    font-weight: 400;
+  }
+
+  #carousel-control .carousel-caption h3 {
+    font-weight: 600;
+    font-size: 3vw;
+  }
+
+  .carousel-caption h4 {
+    color: #a6c76c;
+  }
+
+  .carousel-caption h6 span {
+    font-size: 30px;
+    color: #a6c76c;
+  }
+
+  .carousel-caption button {
+    background-color: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 20px;
+  }
+
+  /*Other Logo*/
+  .ohter-logo {
+    width: 100%;
+  }
+
+  .logo-box {
+    width: 100%;
+    height: 70px;
+    border: 1px solid #ebebeb;
+    border-right: none;
+  }
+
+  .logo-box img {
+    width: 100%;
+    height: 100%;
+    padding: 20px 35px ;
+  }
+
+  .slick-arrow {
+    display: none !important;
+  }
+
+  /*Promotion*/
+  .promotion {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  .promotion-container {
+    width: 95%;
+    height: auto;
+    position: relative;
+    margin: 5px 0;
+  }
+
+  .promotion-container img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .promotion-text {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+  }
+
+  .promotion-box {
+    position: relative;
+  }
+
+  .promotion-text2 {
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+  }
+
+  .promotion-text3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .p-6 {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  }
+
+  .h-b {
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .button-b {
+    border: 1px solid #959595;
+    color: #333;
+    background-color: inherit;
+    padding: 4px 15px;
+    font-size: 14px;
+  }
+
+  .promotion-text2 {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+  }
+
+  .promotion-text2 p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .h-w {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .button-w {
+    background-color: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+
+  .promotion-text3 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+
+  .promotion-text3 p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .top-product-title Button {
+    cursor: pointer;
+    color: #444;
+  }
+
+  /*Best Selling Furniture*/
+  .top-product {
+    margin-bottom: 50px;
+  }
+
+  .top-product-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .top-product-title h3 {
+    font-size: 24px;
+  }
+
+  .top-product-box {
+    text-align: center;
+    padding-bottom: 100px;
+    width: 90%;
+    position: relative;
+    margin-right: 5px;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-product-box:hover {
+    box-shadow: 1px 1px 25px #eeeeee;
+  }
+
+  .top-product-box:hover .top-product-img {
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .top-product-box:hover .cart {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-product-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .top-product h4 {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .top-product h4:hover {
+    color: #cc9966;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+
+  .top-product p {
+    padding-left: 10px;
+  }
+
+  .old-price {
+    color: #ccc;
+    text-decoration: line-through;
+    padding-left: 10px;
+  }
+
+  .cart {
+    font-size: 14px;
+    width: 70%;
+    padding: 7px 0;
+    color: #666;
+    font-weight: 400;
+    border: 1px solid #dadada;
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+  }
+
+  .cart:hover {
+    background-color: #cc9966;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .cart:hover .cart-icon {
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+
+  .cart-icon {
+    color: #333;
+    margin-right: 5px;
+    margin-top: 1px;
+  }
+
+  /*Limited Quantitied Of the Day*/
+  .limited-container {
+    width: 100%;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .deal-day {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+
+  .deal-time h4 {
+    color: #a6c76c;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 10px;
+  }
+
+  .deal-time h2 {
+    color: #333;
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    margin-bottom: 36px;
+    margin-right: 40px;
+  }
+
+  .product-price {
+    margin-bottom: 20px;
+    font-size: 18px;
+    overflow: hidden;
+  }
+
+  .sale-price {
+    color: #ef837b;
+    margin-right: 8px;
+  }
+
+  .original-price {
+    color: #ccc;
+    text-decoration: line-through;
+    font-weight: 300;
+  }
+
+  .timer {
+    width: 55%;
+    display: flex;
+    align-items: center;
+  }
+
+  .green-timer {
+    background-color: #a6c76c;
+    border-radius: 5px;
+    margin: 0 10px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20%;
+    padding: 10px 0;
+  }
+
+  .green-timer:first-of-type {
+    margin: 0 10px 0 0;
+  }
+
+  .timer .cl {
+    font-size: 16px;
+  }
+
+  .deal-time button {
+    font-size: 14px;
+    color: #333;
+    width: 50%;
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+  }
+
+  .deal-product {
+    width: 95%;
+  }
+
+  .deal-product img {
+    width: 100%;
+  }
+
+  .agen {
+    display: none;
+  }
+
+  /*Top Selling Product*/
+  .products {
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+  }
+
+  .top-selling-product h3 {
+    font-size: 20px;
+  }
+
+  .top-selling-product Button {
+    font-size: 14px;
+  }
+
+  .col-md-4 {
+    width: 48% !important;
+  }
+
+  .cart {
+    font-size: 14px;
+    width: 90%;
+    padding: 7px 0;
+    color: #666;
+    font-weight: 400;
+    border: 1px solid #dadada;
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 8px;
+  }
+  
+  /*Blog*/
+  .App .container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  /*Footer*/
+  .footer-top {
+    width: 100%;
+  }
+
+  .logo-sign {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    width: 95%;
+    padding: 20px 0;
+  }
+
+  .footer-icons {
+    font-size: 30px;
+    height: 100%;
+  }
+
+  .logo-text {
+    width: 95%;
+    margin-left: 20px;
+  }
+
+  .logo-text h4 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .logo-text h5 {
+    font-size: 15px;
+  }
+
+  .last-deals {
+    width: 100%;
+    height: 240px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  .last-deals h3 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    padding-top: 60px;
+  }
+
+  .last-deals p {
+    font-size: 13px;
+    color: #fff;
+  }
+
+  .last-deals input {
+    background-color: #fff;
+    border: none;
+    font-size: 12px;
+    width: 35%;
+    padding: 10px;
+  }
+
+  .footer {
+    width: 100%;
+  }
+
+  .footer-container {
+    width: 95%;
+    padding: 20px;
+  }
+
+  .footer-container p {
+    font-size: 14px;
+    padding-top: 20px;
+  }
+  
+  .footer-container ul {
+    padding: 0;
+  }
+
+  .payments {
+    width: 90%;
+  }
+
+  .payments img {
+    width: 70%;
+  }
+
+}

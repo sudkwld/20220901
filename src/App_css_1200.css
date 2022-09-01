@@ -1,0 +1,844 @@
+
+@media screen and (min-width:1300px) {
+  /*Header*/
+  #header-min {
+    display: none;
+  }
+
+  #top-nav .container {
+    width: 1188px;
+  }
+
+  .header-middle {
+    width: 1188px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 10px;
+  }
+
+  .search-container {
+    position: relative;
+  }
+
+  .search-input {
+    width: 560px;
+    margin-left: 60px;
+    border: 1px solid #d4d4d4;
+    padding: 10px 10px 10px 15px;
+    font-size: 13px;
+  }
+
+  .mag {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+
+  .header-icons {
+    display: flex;
+  }
+
+  .header-icon-box {
+    display: block;
+    text-align: center;
+    margin-right: 35px;
+  }
+
+  .header-icon-box:last-child {
+    margin-right: 0;
+  }
+
+  #icon-detail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #icon-detail span {
+    font-size: 11px;
+  }
+
+  .header-icon-img {
+    width: 22px;
+    height: 22px;
+    color: #333;
+    margin-bottom: 2px;
+  }
+
+  .header-icon-box:hover .header-icon-img {
+    color: #a6c76c;
+    transition: all 0.5s ease;
+  }
+
+  .header-bottom {
+    width: 1188px;
+    height: 54px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #ebebeb;
+  }
+  
+  .header-bottom a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .navigation:hover {
+    background-color: #a6c76c;
+  }
+
+  .hamburger-icon {
+    font-size: 18px;
+    margin-bottom: 1px;
+    margin-left: 10px;
+    margin-right: 20px;
+  }
+
+  .navigation:hover {
+    background-color: #a6c76c;
+  }
+
+  .navigation:hover #nav-main {
+    color: #fff;
+  }
+
+  .navigation {
+    width: 250px;
+    margin-left: -30px;
+  }
+
+  .navigation-content a {
+    padding: 10px 0;
+    margin-left: 20px;
+    border-bottom: 1px solid #ebebeb;
+    font-size: 14px;
+    font-weight: 400;
+    color: #777;
+  }
+
+  .navigation-content a:first-of-type, .navigation-content a:nth-of-type(2) {
+    font-weight: 600;
+    color: #333;
+  }
+
+  .navigation-content a:hover {
+    color: #a6c76c;
+  }
+
+  #nav-main {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+    width: 250px;
+    height: 54px;
+    display: flex;
+    align-items: center;
+  }
+
+  .navigation-content {
+    width: 100%;
+  }
+
+  .menu {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .menu-sub {
+    display: flex;
+    align-items: center;
+    height: 15px;
+    margin-left: -60px;
+    margin-bottom: 0px;
+    border-left: 1.5px solid #ccc;
+    border-right: 1.5px solid #ccc;
+  }
+
+  .menu-sub li {
+    padding-right: 30px;
+  }
+
+  .menu li:first-of-type a {
+    color: #a6c76c;
+  }
+
+  .menu li a {
+    font-size: 14px;
+    color: #333;
+    font-weight: 500;
+  }
+
+  .bulb {
+    font-size: 14px;
+    color: #777;
+    font-weight: 500;
+  }
+
+  .bulb span {
+    color: #333;
+  }
+
+  .bulb-icon {
+    width: 12px;
+    height: 13px;
+    margin-right: 40px;
+    margin-left: -40px;
+  }
+
+  /*Slider*/
+  #carousel-control .carousel-control-prev {
+    display: none;
+  }
+
+  #carousel-control .carousel-control-next {
+    display: none;
+  }
+
+  #carousel-control .carousel-caption {
+    text-align: left;
+    top: 20%;
+    padding: 0;
+  }
+
+  #carousel-control .carousel-caption p {
+    margin: 0;
+    font-weight: 400;
+  }
+
+  #carousel-control .carousel-caption h3 {
+    font-weight: 600;
+    font-size: 3vw;
+  }
+
+  .carousel-caption h4 {
+    color: #a6c76c;
+  }
+
+  .carousel-caption h6 span {
+    font-size: 3vw;
+    color: #a6c76c;
+  }
+
+  .carousel-caption button {
+    background-color: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 0.8vmax;
+    padding: 5px 20px;
+  }
+
+  /*Other Logo*/
+  #logo-slider {
+    width: 100%;
+    min-width: 1188px;
+    height: auto;
+  }
+
+  .logo-box {
+    height: 70px;
+    border: 1px solid #ebebeb;
+    border-right: none;
+  }
+
+  .logo-box img {
+    width: 100%;
+    height: 100%;
+    padding: 15px 70px;
+  }
+
+  /*Promotion*/
+  .promotion {
+    width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+  }
+
+  .promotion-container {
+    margin-right: 20px;
+    position: relative;
+    margin-right: 10px;
+  }
+
+  .promotion-box {
+    position: relative;
+  }
+
+  .promotion-box img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .promotion-text {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+  }
+
+  .p-6 {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  }
+
+  .h-b {
+    font-size: 24px;
+    color: #333;
+    font-weight: 600;
+  }
+
+  .button-b {
+    border: 1px solid #959595;
+    color: #333;
+    background-color: inherit;
+    padding: 4px 15px;
+    font-size: 14px;
+  }
+
+  .promotion-text2 {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+  }
+
+  .promotion-text2 p {
+    margin: 0;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .h-w {
+    color: #fff;
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .button-w {
+    background-color: inherit;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+
+  .promotion-text3 {
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  }
+
+  .promotion-text3 p {
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .top-product-title Button {
+    cursor: pointer;
+    color: #444;
+  }
+
+  /*Best Selling Furniture*/
+  
+.top-product {
+  padding: 0 80px;
+  margin-bottom: 50px;
+}
+
+.top-product-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.top-product-title h3 {
+  font-size: 24px;
+}
+
+.top-product-box {
+  text-align: center;
+  padding-bottom: 100px;
+  width: 90%;
+  position: relative;
+  margin-right: 5px;
+  margin: 10px 5px;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+}
+
+.top-product-box:hover {
+  box-shadow: 1px 1px 25px #eeeeee;
+}
+
+.top-product-box:hover .top-product-img {
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.top-product-box:hover .cart {
+  display: flex;
+  justify-content: center;
+}
+
+.top-product-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top-product h4 {
+  margin: 0;
+  color: #333;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.top-product h4:hover {
+  color: #cc9966;
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+
+.top-product p {
+  padding-left: 10px;
+}
+
+.old-price {
+  color: #ccc;
+  text-decoration: line-through;
+  padding-left: 10px;
+}
+
+.cart {
+  font-size: 14px;
+  width: 70%;
+  padding: 7px 0;
+  color: #666;
+  font-weight: 400;
+  border: 1px solid #dadada;
+  display: none;
+  position: absolute;
+  bottom: 20px;
+  left: 40px;
+}
+
+.cart:hover {
+  background-color: #cc9966;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  color: #fff;
+}
+
+.cart:hover .cart-icon {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.cart-icon {
+  color: #333;
+  margin-right: 5px;
+  margin-top: 1px;
+}
+
+#simple-prev::before{
+  font-size: 45px;
+  font-weight: 200;
+  color: rgb(191, 191, 191);
+  content: "<";
+  font-family: "poppins";
+}
+
+#simple-next::before{
+  font-size: 45px;
+  font-weight: 200;
+  color: rgb(191, 191, 191);
+  content: ">";
+  font-family: "poppins";
+}
+
+  /*Limited Quantitied Deal Of the Day*/
+  .limited-container {
+    width: 1188px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 600;
+  }
+
+  .deal-day {
+    background-color: #fff;
+    display: flex;
+    padding: 20px;
+    width: 70%;
+  }
+
+  .deal-time {
+    width: 50%;
+    padding: 35px 30px 20px;
+  }
+
+  .deal-time h4 {
+    color: #a6c76c;
+    font-size: 20px;
+    font-weight: 400;
+  }
+
+  .deal-time h2 {
+    color: #333;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+    margin-bottom: 36px;
+    margin-right: 40px;
+  }
+
+  .product-price {
+    margin-bottom: 24px;
+  }
+
+  .sale-price {
+    color: #ef837b;
+    margin-right: 8px;
+  }
+
+  .original-price {
+    color: #ccc;
+    text-decoration: line-through;
+    font-weight: 300;
+  }
+
+  .timer {
+    display: flex;
+    align-items: center;
+  }
+
+  .green-timer {
+    width: 70px;
+    height: 90px;
+    background-color: #a6c76c;
+    border-radius: 5px;
+    margin: 0 10px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .green-timer:first-of-type {
+    margin: 0 10px 0 0;
+  }
+
+  .timer .cl {
+    font-size: 16px;
+  }
+
+  .deal-time button {
+    font-size: 14px;
+    color: #333;
+    background-color: #fff;
+    padding: 11.5px 40px;
+    margin-top: 20px;
+    border: 1px solid #ebebeb;
+  }
+  
+  /*Best Selling Furniture*/
+
+  .top-product {
+    padding: 0 80px;
+    margin-bottom: 50px;
+  }
+
+  .top-product-title {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+
+  .top-product-title h3 {
+    font-size: 24px;
+  }
+
+  .top-product-box {
+    text-align: center;
+    padding-bottom: 100px;
+    width: 90%;
+    position: relative;
+    margin-right: 5px;
+    margin: 10px 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .top-product-box:hover {
+    box-shadow: 1px 1px 25px #eeeeee;
+  }
+
+  .top-product-box:hover .top-product-img {
+    opacity: 0;
+    transition: all 0.3s ease;
+  }
+
+  .top-product-box:hover .cart {
+    display: flex;
+    justify-content: center;
+  }
+
+  .top-product-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .top-product h4 {
+    margin: 0;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .top-product h4:hover {
+    color: #cc9966;
+    transition: all 0.5s ease;
+    cursor: pointer;
+  }
+
+  .top-product p {
+    padding-left: 10px;
+  }
+
+  .old-price {
+    color: #ccc;
+    text-decoration: line-through;
+    padding-left: 10px;
+  }
+
+  .cart {
+    font-size: 14px;
+    width: 70%;
+    padding: 7px 0;
+    color: #666;
+    font-weight: 400;
+    border: 1px solid #dadada;
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 40px;
+  }
+
+  .cart:hover {
+    background-color: #cc9966;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #fff;
+  }
+
+  .cart:hover .cart-icon {
+    color: #fff;
+    transition: all 0.3s ease;
+  }
+
+  .cart-icon {
+    color: #333;
+    margin-right: 5px;
+    margin-top: 1px;
+  }
+
+  #simple-prev::before {
+    font-size: 45px;
+    font-weight: 200;
+    color: rgb(191, 191, 191);
+    content: "<";
+    font-family: "poppins";
+  }
+
+  #simple-next::before {
+    font-size: 45px;
+    font-weight: 200;
+    color: rgb(191, 191, 191);
+    content: ">";
+    font-family: "poppins";
+  }
+
+  /*Top Selling Products*/
+  .products {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .products .top-product-box {
+    padding-bottom: 20px;
+  }
+
+  .top-selling-product {
+    text-align: center;
+    padding: 50px 0 30px 0;
+  }
+
+  .top-selling-product h3 {
+    font-size: 24px;
+  }
+
+  .selling-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .selling-menu li:first-of-type a {
+    color: #333;
+    border-bottom: 1.5px solid #333;
+  }
+
+  .selling-menu li {
+    padding: 10px 10px 0 10px;
+  }
+
+  .selling-menu li:first-of-type {
+    padding-left: 0;
+  }
+
+  .selling-menu li a {
+    text-decoration: none;
+    color: #777;
+    padding: 0 5px 5px 5px;
+    font-size: 16px;
+  }
+
+  .selling-list {
+    font-size: 13px;
+    text-decoration: none;
+    color: #777;
+    font-weight: 400;
+  }
+
+  .selling-title {
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    font-weight: 400;
+  }
+
+  .selling-price {
+    font-size: 16px;
+    color: #333;
+    padding-bottom: 70px;
+  }
+
+  .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 20% !important;
+  }
+  
+  /*Footer*/
+  .last-deals {
+    width: 100%;
+    height: 230px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+  }
+
+  .last-deals h3 {
+    font-size: 24px;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: -0.3px;
+    padding-top: 60px;
+  }
+
+  .last-deals p {
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .last-deals input {
+    background-color: #fff;
+    border: none;
+    font-size: 14px;
+  }
+
+  .last-deals input[type="email"] {
+    padding: 10px 150px 10px 20px;
+  }
+
+  .last-deals input[type="submit"] {
+    padding: 10px 20px 10px 150px;
+  }
+
+  footer {
+    max-width: 1188px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 45px 10px 10px 10px;
+  }
+
+  .footer-container:first-of-type {
+    display: flex;
+    flex-flow: row wrap;
+    width: 500px;
+  }
+
+  .footer-container ul li {
+    line-height: 35px;
+  }
+
+  .footer-container p {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .footer-logo {
+    height: 25px;
+  }
+
+  .call-number {
+    padding-right: 50px;
+  }
+
+  .logo-sign {
+    max-width: 1188px;
+    margin: 0 auto;
+    display: flex;
+    padding: 28px 0;
+  }
+
+  .footer-icons {
+    font-size: 30px;
+  }
+
+  .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+  }
+
+  .logo-container h4 {
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .logo-container h5 {
+    font-size: 14px;
+    color: #777;
+  }
+
+  .logo-text {
+    margin-left: 20px;
+  }
+
+  
+}
